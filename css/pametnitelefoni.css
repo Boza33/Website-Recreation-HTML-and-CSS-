@@ -1,0 +1,1860 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #e2e2e2;
+}
+.container_za_sve{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: overlay;
+}
+.container_za_header{
+    width: 100%;
+}
+.header{
+    height: 178px;
+    width: 100%;
+}
+
+.header_gore{
+    height: 31px;
+    padding: 0px auto;
+    background-color: #086cb4;
+    display: flex;
+    font-size: 12px;
+    padding-left: 65%;
+}
+.header_gore a{
+    color: white;
+    text-decoration: none;
+    padding: 2% 2%;
+    display: flex;    
+}
+.header_sredina{
+    height: 108px;
+    padding: 0px 19.5%;
+    background-color: #ffffff;
+    
+}
+.header_sredina img{
+    padding-bottom: 0px;
+    padding-top: 53px;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.header_dole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 34px;
+    background-color: #086cb4;
+    margin: 0;
+}
+.navigacioni_meni{
+    display: flex;
+    
+    justify-content: center; 
+}
+.navigacioni_meni ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+.navigacioni_meni ul li a{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    margin: 0px 10px;
+}
+.navigacioni_meni ul li a:hover{
+    background-color: #267fbf;
+}
+.navbar_links ul li input{
+    height: 100%;
+   
+    background-color:#267fbf;
+    border: none;
+    
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.active_nav{
+    background-color: #267fbf;
+}
+.Noviteti_Zanimljivosti{
+    width: 100%;
+    height: 35px;
+    padding: 0px 19.5%;
+    background-color: #87959d;
+}
+.Noviteti_Zanimljivosti ul{
+    list-style-type:none;
+    display: flex;
+}
+.Noviteti_Zanimljivosti ul li a{
+    text-decoration: none;
+    margin: 10px 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: small;
+}
+.Noviteti_Zanimljivosti p{
+    padding-top: 7px;
+    color: white;
+}
+.Noviteti_Zanimljivosti li a:hover{
+    text-decoration: underline;
+}
+.reklama_vesti{
+    height: 260px;
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 2.6em;
+}
+.reklama_vesti img{
+    height: 280px;
+    width: 100%;
+}
+.reklama{
+    height: 260px;
+    margin-top: 3.5em;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2.6em;
+    
+    
+}
+.reklama img{
+    height: 280px;
+    width: 100%;
+}
+
+.container_za_main{
+ 
+    background-color: #e2e2e2;;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.main{
+    display: flex;
+    background-color: white;
+    
+    width: 100%;
+}
+.home_main{
+    padding-top: 20px;
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home_main_2{
+    padding:0px;
+    padding-top: 20px;
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_telefoni{
+    padding:0px;
+    padding-top: 20px;
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.prva_vest{
+    padding: 20px;
+    color: #4f4f4f;
+}
+.prva_vest img{
+    width: 100%;
+    height: 420px;
+}
+.prva_vest p{
+    padding-top: 20px;
+    font-size: small;
+    padding-left: 2px;
+}
+.prva_vest p a{
+    text-decoration: none;
+    color:#0069b4;
+    font-size: 0.9rem;
+    
+}
+.prva_vest a {
+    padding-top: 20px;
+    text-decoration: none;
+}
+.prva_vest button{
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #086cb4;
+    padding: 7px;
+    background-color:rgb(81, 78, 78);
+    border: none;
+}
+.prva_vest button a{
+    color: white;
+}
+.prva_vest button a:hover{
+    color: rgb(120, 117, 117);
+    opacity: 0.5;
+}
+.content{
+    padding-left: 20px;
+    padding-top:10px ;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    background-color: #f6f7f8;
+}
+.content ul li{
+    list-style-type: none;
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 21px;
+    
+}
+.vest_slika_main{
+    margin-right: 20px;
+}
+
+.vest_main{
+    color: gray;
+    font-size: 12px;
+}
+.vest_main_vest{
+    width: 100%;
+}
+.vest_main span a
+{
+    padding-bottom: 18px;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    color: rgb(80, 80, 238);
+    text-decoration: none;
+}
+.vest_main h2 a
+{
+    font-family: "Oswald", sans-serif;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.vest_main p a{
+    text-decoration: none;
+    font-style: italic;
+    font-size:smaller ;
+    color: rgb(55, 144, 212);
+    
+}
+.vest_main p{
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.prva_reklama_main,
+.druga_reklama_main{
+    
+    margin-bottom: 20px;
+    width: 100%;
+}
+.prva_reklama_sidebar{
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-right: 20px;
+}
+.prva_reklama_sidebar img{
+    width: 100%;
+}
+.sidebar{
+    width: 30%;
+    margin: 0%;
+}
+.sidebar ul li{
+    list-style-type: none;
+}
+.sidebar_hline{
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: 0px;
+}
+.sidebar_hline h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #267fbf;
+    width: 26%;   
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.underline{
+    height: 3px;
+    width: 100%;
+    background-color: #086cb4;
+}
+.brand_list{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 43px;
+    margin-right: 7px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.brand_list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand_list ul li{
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background-color: #ecf0f2;
+    text-align: center;
+    justify-content: center;
+    width: 35%;
+    height: 22px;
+    padding-top: 3px;
+    margin-left: 2%;
+}
+
+.brand_list ul li:hover{
+    
+    background-color: grey;
+}
+.brand_list ul li a:hover{
+    color: white;
+}
+.brand_list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.all_brends_sidebar ul li{
+    width: 62%;
+    padding-top: 3px;
+    height: 22px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background-color: #ecf0f2;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 14.6%;
+    margin-right: 14%;
+    
+}
+.all_brends_sidebar ul li a{
+    text-decoration: none;
+}
+.all_brends_sidebar ul li:hover{
+    
+    background-color: grey;
+}
+.all_brends_sidebar ul li a:hover{
+    color: white;
+}
+.all_brends_sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar_hline2{
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: 0px;
+
+}
+
+.sidebar_hline2 h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #267fbf;
+    width: 60%;   
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.huawei_video{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    height: 300px;
+    width: 91%;
+}
+.huawei_video iframe{
+    width: 100%;
+    height: 100%;
+}
+.sidebar_hline3{
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: 0px;
+    display: flex;
+}
+.sidebar_hline3 h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #267fbf;
+    width: 19%;   
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.sidebar_hline3 h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #626263;
+    width: 19%;   
+    margin-left: 3px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.sidebar_hline4 h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #267fbf;
+    width: 19%;   
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.vesti_sidebar{
+    padding: 20px;
+}
+.vesti_sidebar ul li{
+    padding-top: 20px;
+    
+    padding-bottom: 30px;
+    padding-right: 1px;
+    display: flex;
+}
+.vesti_sidebar ul li a{
+    text-decoration: none;
+    font-size: small;
+}
+.vest_sidebar{
+    display: inline;
+    font-size: small;
+    padding-left: 9px;
+}
+hr{
+   border: 0.1px rgb(212, 211, 211) dashed;
+}
+.vest1_sidebar span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: blue;
+}
+.vest1_sidebar a{
+    color: black;
+    font-size: 1.3rem;
+    line-height: 17px;
+    font-weight: 700;
+}
+.facebook_reklama_sidebar {
+    padding:6%; 
+    
+}
+.facebook_reklama_sidebar img{
+    width: 100%;
+}
+.reklama_sajta{
+    padding:6%
+    
+}
+.reklama_sajta img{
+    width: 100%;
+}
+.poslednja_slika_sidebar{
+    padding: 6%;
+}
+.poslednja_slika_sidebar img{
+    width: 100%;
+}
+.lista_stranica{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+.lista_stranica ul{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+.lista_stranica ul li{
+    
+    list-style-type: none;
+    box-sizing: border-box;
+   
+    height: 27px;
+    padding: 5px 9px 0;
+    border-radius: 6px;
+}
+.lista_stranica ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    display: block;
+}
+.lista_stranica ul li:hover{
+    background-color: blue;
+}
+.active{
+    background-color: rgb(55, 53, 53);
+    color: white;
+}
+.stranica_br{
+    display: flex;
+    justify-content: center;
+    background-color: #efeded;
+}
+
+.container_za_footer{
+    background-color: white;
+    width: 100%;
+}
+.topline_footer{
+    width: 100%;
+    height: 30px;
+    background-color: #086cb4;
+}
+.blok_stranica{
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.Vesti{
+    text-decoration: none;
+    
+    margin-top: 20px;
+    width: 15%;
+}
+.Vesti h2{
+    font-family: "Oswald", sans-serif;
+    color: rgb(60, 35, 35);
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.Vesti a {
+    font-size: small;
+    color: rgb(106, 105, 105);
+    text-decoration:none;
+    line-height: 22px;
+}
+.Vesti a:hover{
+    text-decoration: underline;
+}
+.Pratite_nas{
+    text-decoration: none;
+    margin-top: 20px;
+    width: 20%;
+}
+.Pratite_nas h2{
+    font-family: "Oswald", sans-serif;
+    color: rgb(60, 35, 35);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.Pratite_nas a{
+    font-size: 23px;
+    width: 20%;
+    height: 26px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.linkovi{
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.linkovi i{
+    font-size: small;
+    margin: 0%;
+}
+.linkovi a{
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.linkovi ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.linkovi ul li {
+    list-style-type: none;
+    margin-left: 2%;   
+    display: block;
+
+}
+.linkovi ul li a:hover{
+    text-decoration: underline;
+}
+
+.bottom_footer{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    height: 33px;
+    font-size: small;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.opcije_bottom_footer{
+    display: flex;
+}
+.opcije_bottom_footer a{
+
+    color: #626263;
+    text-decoration: none;
+    padding-left: 6px;
+}
+.zaglavlje{
+    height: 20px;
+    padding-top: 13px;
+    padding-left: 25px;
+    font-size: 13px;
+    display: flex;
+    border-bottom:0.7px rgb(207, 205, 205) dashed;
+}
+.zaglavlje a{
+    text-decoration: none;
+    color:#267fbf;
+}
+.zaglavlje p{
+    color: gray;
+}
+.huawei_vest{
+    padding: 20px;
+}
+.huawei_vest img{
+    width: 100%;
+}
+.zanimljivosti_zaglavlje{
+    height: 32px;
+    border-top:0.7px rgb(202, 201, 201) dashed;
+    border-bottom:0.7px rgb(207, 205, 205) dashed;
+    background-color: hsl(0, 0%, 96%);
+    
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+.zanimljivosti_zaglavlje p{
+    padding-top: 1.6px;
+    font-size: 13.4px;
+    color: #87959d;
+}
+.zanimljivosti_zaglavlje a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #267fbf;
+}
+.sidebar{
+    border-left:0.7px rgb(207, 205, 205) dashed;
+    
+}
+.content_vest{
+    width: 100%;
+}
+.content_vest h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.content_vest p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #6b6a6a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.content_vest p a{
+    text-decoration: none;
+    color: #267fbf;
+}
+.reklama_vest{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reklama_vest img{
+    width: 90%;
+}
+.content_vest h2{
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-bottom: 14px;
+}
+.content_vest img{
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+}
+.reklama2_vest{
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.content_vest img{
+    width: 94%;
+    height: 412px;
+}
+.reklama3_vest{
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.reklama4_vest{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reklama4_vest img{
+    width: 90%;
+}
+.content_telefoni h2{
+    padding-left: 25px;
+    padding-top: 40px;
+    color: #626263;
+}
+
+.marka_telefona img:hover{
+    border: solid blue thin;
+}
+.marka_telefona{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.marka_telefona img{
+    height:179px;
+    width:31.6%;
+    margin-bottom: 8px;
+}
+.header_gore_po{
+    background-color: #0069b4;
+    height: 41px;
+    display: flex;
+    padding-left:69%;
+    padding-bottom: 3px;
+}
+.header_gore_po a{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 6px;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.header_reklama_po{
+    margin-top: 55px;
+    margin-left: 270px;
+    margin-bottom: 25px;
+}
+.postavi_pitanje_po{
+    height: 35px;
+    padding: 0px 17.5%;
+    background-color: #87959d;
+}
+
+.zaglavlje_po{
+    height: 40px;   
+    border-bottom:0.7px rgb(207, 205, 205) dashed;
+}
+.zaglavlje_po a{
+    text-decoration: none;
+    color: #267fbf;
+}
+.zaglavlje_po p{
+    font-size: smaller;
+    color: #818486;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.content_po{
+    width: 65%;
+}
+.content_po_main{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 95%;
+}
+.content_po_main h3{
+    margin-bottom: 15px;
+}
+.pronadjite_odgovor{
+    height: 45px;
+    background-color: #cde2f0;
+    display: flex;
+    margin-top: 20px;
+
+}
+.pronadjite_odgovor p{
+    font-size: 90%;
+    margin-top: 10px;
+    color: #5b5a5a;
+    display: flex;
+}
+.pronadjite_odgovor img{
+    margin: 6px;
+}
+.pronadjite_odgovor input{
+    margin-left: 42%;
+    margin-right: 2%;
+    margin-top: 7px;
+    height: 30px;
+    width: 15%;
+}
+.pronadjite_odgovor input:hover{
+    background-color: #267fbf;
+    cursor: pointer;
+}
+.odgovori_po{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 1.3px;
+}
+.odgovori_po a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 13px;
+    height: 42px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.underline_po{
+    height: 2px;
+    width: 100%;
+    background-color:#0069b4;
+}
+
+.najnovija_pitanja_po{
+    margin-top: 20px;
+    height: 10%;
+    background-color: rgb(240, 239, 239);
+    padding: 15px;
+    display:flex;    
+    flex-wrap: wrap;
+
+}
+.slika_naj_pitanja{
+   
+    width: 10%;
+}
+.slika_naj_pitanja img{
+
+    width: 100%;
+    height: 66px;
+    box-sizing: border-box;
+    border-radius: 55%;
+    border:0.7px #b9b9b9 ridge;
+    
+}
+.slika_naj_pitanja img:hover{
+    cursor: pointer;
+    color: #324ecc;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+.inf_najnovija_pitanja_po{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 86%;
+
+    justify-content: space-between;
+    
+}
+.posebno{
+
+    color: #585b5b;
+    font-size: 13px;
+    text-align: start;
+    height: 80px;
+   
+}
+.footer_po{
+    
+    color: #585b5b;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 0.7px grey dashed;
+}
+.footer_po a{
+    color: #585b5b;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.inf_najnovija_pitanja_po a {
+    margin-top: 10px;
+    font-size: 23px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #2c2c2c;
+    height: 40px;
+    
+    text-decoration: none;  
+}
+
+.inf_najnovija_pitanja_po a h1:hover{
+    color:#0069b4;
+}
+.inf_najnovija_pitanja_po span img{
+    padding-right: 6px;
+    padding-left: 25px;
+}
+.paragraf_po{
+    box-sizing: border-box;
+    height: 25px;
+    background-color:#0069b4;
+    color: white;
+    font-size: smaller;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    
+    width: 70px;
+    margin-top: 10px;
+}
+.break{
+    width: 100%;
+    height: 0px;
+}
+.inf_najnovija_pitanja_po span a{
+    text-decoration: none;
+    font-size: small;
+}
+.reklama2_po{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.active_po{
+    background-color: #19669e;
+    color: white;
+}
+.lista_stranica_po{
+    margin-top: 30px;
+    padding: 0px 78%;
+    margin-bottom: 30px;
+    width: 20%;
+}
+.lista_stranica_po ul{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.lista_stranica_po ul li{
+    
+    list-style-type: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 27px;
+    padding: 5px 9px 0;
+    border-radius: 6px;
+}
+.lista_stranica_po ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    display: block;
+}
+.lista_stranica_po ul li:hover{
+    background-color: blue;
+}
+.active_po{
+    background-color: rgb(22, 97, 176);
+    color: white;
+}
+.stranica_br{
+    background-color: #efeded;
+}
+
+.sidebar_po{
+    width: 35%;
+    border-left:0.7px rgb(202, 201, 201) dashed;
+}
+.prvi_sidebar_po{
+    padding:30px 20px;
+}
+.postavi_pitanje_po{
+    padding-left: 18.6%;
+    margin-bottom: 20px;
+}
+.postavi_pitanje_po ul{
+    list-style-type: none;
+}
+.postavi_pitanje_po ul li{
+    padding-top: 7px;
+}
+.postavi_pitanje_po a{
+    font-size: 13px;
+    color: rgb(218, 215, 215);
+    text-decoration: none;
+}
+.postavi_pitanje input{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    background-color: #3a3939;
+    color: white;
+    font-size: 20px;
+    
+}
+.postavi_pitanje input:hover{
+    cursor:pointer;
+}
+.kategorije_pitanja{
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    width: 48%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 20px;
+
+}
+.marke_telefona_po ul li{
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    height: 20px;
+    list-style-type: none;
+    border-bottom:0.7px rgb(207, 205, 205) dashed;
+    
+    
+}
+.marke_telefona_po a{
+    text-decoration: none;
+    color: #707171;
+    font-size: 14px;
+}
+.marke_telefona_po a:hover{
+    color: #267fbf;
+}
+.reklama1_sidebar_po img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 0.7px rgb(160, 160, 160) solid;
+}
+.reklama2_sidebar_po img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border: 0.7px rgb(159, 159, 159) solid;
+}
+.reklama1_sidebar_po img:hover{
+    opacity: 0.5;
+}
+.reklama2_sidebar_po img:hover{
+    opacity: 0.5;
+}
+.prijavite_se_po{
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 10px;
+    font-size: smaller;
+}
+.social_login_po{
+    padding: 20px;
+    
+}
+.social_login_po p{
+    color: #585b5b;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.social_login_po img{
+    height: 30px;
+    width: 10%;
+    padding-right: 5px;
+}
+.secured {
+    padding-top: 30px;
+}
+.secured p{
+    font-size: 10px;
+}
+.secured a{
+    font-size: 10px;
+    text-decoration: none;
+}
+.username_po input{
+    background-color: #c4def0;
+    margin:10px 20px;
+    width:87%;
+    height: 30px;
+}
+.prijavite_se_button input{
+    background-color: #329ae4;
+    margin:10px 20px;
+    width: 87.4%;
+    height: 35px;
+    color: white;
+    border: none;
+}
+.prijavite_se_button input:hover{
+    background-color: #3a3939;
+    cursor: pointer;
+}
+.login_po{
+    
+    padding-left: 20px;
+    display: flex;
+}
+
+.login_po a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 28px;
+    padding-top: 5px;
+}
+.registruj_se{
+    
+    justify-content: center;
+    border-top: 4px #267fbf ridge;
+    color: #6c6a6a;
+}
+.nedavna_pitanja_po p{
+    margin-top: 25px;
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    width: 37%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 10px;
+    font-size: smaller;
+}
+.nedavna_pitanja_li_po ul{
+    list-style-type: none;
+    
+}
+.nedavna_pitanja_li_po ul li{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 0.8px rgb(162, 162, 162) dashed;
+   
+}
+.nedavna_pitanja_li_po a h5{
+    margin-bottom: 10px;
+}
+.nedavna_pitanja_li_po ul li p{
+    
+    font-size: 13px;
+    line-height: 22px;
+    color: #585b5b;
+    
+}
+.nedavna_pitanja_li_po ul li span{
+    font-size: 12px;
+    margin-top: 20px;
+    color:#5b5a5a
+    
+}
+.nedavna_pitanja_li_po ul li p a{
+    font-size: 11px;
+    
+    color:#363535
+}
+.nedavna_pitanja_li_po ul li a{
+    text-decoration: none;
+    color: #363535;
+}
+.statistika_po{
+    margin-top: 25px;
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    width: 24%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 10px;
+    font-size: smaller;
+}
+.pitanja_po{
+    height: 46px;
+    background-color: #eff1f1;
+    margin-bottom: 10px;
+    border-bottom: 0.8px grey dashed;
+    padding-left: 20px;
+    display: flex;
+}
+.pitanja_po img{
+    padding-top: 12px;
+}
+.pitanja_po p{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.najnoviji_komentari_po{
+    margin-top: 25px;
+    padding-top: 5px;
+    margin-left: 20px;
+    height: 25px;
+    width: 42%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 10px;
+    font-size: smaller;
+}
+
+.najnoviji_komentari_li_po ul{
+    list-style-type: none;
+    
+}
+.najnoviji_komentari_li_po ul li p{
+    color: rgb(106, 105, 105);
+    font-size: 14px;
+    line-height: 20px;
+}
+.najnoviji_komentari_li_po ul li a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
+.najnoviji_komentari_li_po ul li{
+    border-bottom: 0.8px rgb(162, 162, 162) dashed;
+    padding: 10px 20px;
+}
+.container_za_main_po{
+    background-color: #e2e2e2;;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 70px;
+    width: 100%;
+}
+.dodaj_oglas{
+    height: 80px;
+    background-color: #fbfbfb;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.keyword_lokacija{
+    display: flex;
+}
+.keyword_lokacija input{
+    width: 58%;
+    height: 30px;
+    padding: 5px;
+    background-color: #f4f4f6;
+    color: #363535;
+    margin-left: 5px;
+    border: none;
+}
+.opcije_og{
+    display: flex;
+    justify-content: space-between;
+}
+.opcije_og img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 90%;
+    background-color: grey;
+}
+.opcije_og input{
+    margin-top: 10px;
+    width: 16%;
+    height: 30px;
+}
+.opcije_og input:hover{
+    color: #267fbf;
+    cursor: pointer;
+}
+
+.sidebar_og{
+    width: 35%;
+    border-left:0.7px rgb(202, 201, 201) dashed;
+    
+}
+.prvi_sidebar_og{
+    padding-top:30px;
+    width: 100%;
+    height: 50px;
+}
+.postavi_pitanje_og{
+    
+    margin-bottom: 20px;
+}
+.postavi_pitanje_og ul{
+    list-style-type: none;
+}
+.postavi_pitanje_og ul li{
+    padding-top: 7px;
+}
+.postavi_pitanje_og a{
+    font-size: 13px;
+    color: rgb(218, 215, 215);
+    text-decoration: none;
+}
+.postavi_pitanje_og input{
+    margin-left: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 88.5%;
+    height: 42px;
+    background-color: #3a3939;
+    color: white;
+    font-size: 20px;
+}
+.postavi_pitanje input:hover{
+    cursor:pointer;
+}
+.kategorije_oglasa{
+    padding-top: 3px;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 20px;
+    width: 37%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 7px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.poslednji_oglasi{
+    padding-top: 3px;
+    margin-left: 20px;
+    height: 20px;
+    width: 35%;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 7px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.reklama_kontakt{
+    height: 260px;
+    margin-top: 3.5em;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2.6em;
+}
+.reklama_kontakt img{
+    height: 280px;
+    width: 100%;
+
+}
+.prva_reklama_sidebar_k{
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 20px;
+   
+}
+.prva_reklama_sidebar_k img{
+    width: 100%;
+}
+.content_k_main{
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.content_k_main h3{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.content_k_main p{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.kategorije_oglasa_k{
+    padding-top: 3px;
+    margin-left: 20px;
+    height: 25px;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: #0069b4;
+    color: white;
+    padding-left: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.forma{
+    padding: 20px;
+}
+.forma p{
+    font-size: 15px;
+    color: #585b5b;
+}
+.forma input{
+    border: 1px rgb(183, 179, 179) solid;
+    background-color: #f4f4f6;
+    margin-top: 3px;
+    height: 30px;
+    width: 50%;
+}
+.forma_poruka input{
+    border: 1px rgb(183, 179, 179) solid;
+    background-color: #f4f4f6;
+    margin-top: 3px;
+    height: 130px;
+    width: 80%;
+    
+}
+.forma_poruka{
+    padding: 20px;
+}
+.forma_poruka p{
+    font-size: 15px;
+    color: #585b5b;
+}
+.posalji_poruku{
+    padding-left: 20px;
+}
+.posalji_poruku input{
+    border: none;
+    height: 24px;
+    width: 100px;
+    background-color: rgb(61, 58, 58);
+    color: white;
+}
+.posalji_poruku input:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.container_za_main_k{
+    margin-top: 5px;
+    background-color: #e2e2e2;;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+.container_za_main_d{
+    background-color: #e2e2e2;;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.adresa{
+    padding: 20px;
+}
+.adresa iframe{
+    width: 100%;
+}
+.yt_vest2{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 72px;
+}
+.underline_saveti{
+    height: 5px;
+    background-color: #086cb4;
+    padding: 0px;
+    margin: 0px;
+
+}
+.copyright p{
+    color: grey;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    background-color: #086cb4;
+    color: white;
+}
+
+.navbar_links ul{
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar_links li{
+    list-style: none;
+    text-align: center;
+}
+.brand_title{
+    display: none;
+}
+.navbar_links li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+.navbar_links{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+   
+ }
+.navbar_links li:hover{
+    background-color: #267fbf;
+}
+.brand_title{
+    height: 40px;
+}
+
+.navbar_links.active{
+    display: flex;
+}
+.navbar_links li a{
+    padding: .5rem 1rem;
+}
+.dropbtn{
+    background-color:#0069b4;
+    color:white;
+    padding:16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    right: 0;
+    background-color:#0069b4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    margin: 0px 10px;
+}
+.dropdown-content a{
+    width: 80%;
+}
+.dropdown-content a:hover{
+    background-color: #329ae4;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:#267fbf
+}
+@media only screen and (max-width:1100px) {
+    .toogle{
+        display: flex;
+        margin-top: 1%;
+    }
+    .navbar_links{
+        display: none;
+    }
+    .dropbtn{
+        display: flex;
+    }
+    .navbar {
+       justify-content: start;
+    }
+    
+    .brand_title {
+        display: none;
+    }
+   
+    .container_za_main_d{
+        margin-top: 70px;
+    }
+    .container_za_main{
+        margin-top: 70px;
+    }
+    .container_za_main_k{
+        margin-top: 70px;
+    }
+    .container_za_main_po{
+        margin-top: 70px;
+    }
+    
+    .navigacioni_meni  ul{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+   
+    .navigacioni_meni li{
+        text-align: center;
+        background-color: #0069b4;
+        
+    }
+    .active_nav{
+        display: flex;
+    }
+    .navigacioni_meni li a{
+        padding: .1rem 1rem;
+    }
+    .navigacioni_meni input{
+        display: none;
+    }
+    .navigacioni_meni.active{
+        display: flex;
+    }
+  
+    .header_dole{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    
+    .sidebar{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .content_po{
+        width: 100%;
+    } 
+    .home_main{
+        width: 100%;
+    }
+    .home_main_2{
+        width: 100%;
+    }
+    .content_telefoni{
+        width: 100%;
+    }
+   
+    .reklama{
+       display: none;
+    }
+    .reklama1_sidebar_po{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+    }
+    .reklama_kontakt{
+        display: none;
+    }
+    .reklama2_sidebar_po{
+        display: flex;
+        justify-content: center;
+    }
+    .reklama2_po{
+        margin-top: 20px;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .prva_reklama_sidebar img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 400px;
+    
+    }
+    .prva_reklama_sidebar_k img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 400px;
+    
+    }
+    .all_brends_sidebar{
+        width: 66.5%;
+        padding-top: 3px;
+        height: 22px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        background-color: #ecf0f2;
+        text-align: center;
+        list-style-type: none;
+        margin-left: 16.5%;
+
+    }
+    .brand_list {
+        margin: 0%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    .brand_list ul li{
+        width: 46%;
+    }
+  
+    .content{
+        width: 100%;
+    }
+   .prva_vest img{
+    width: 90%;
+    margin-left: 5%;
+   }
+   .prva_reklama_main,
+   .druga_reklama_main{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+   }
+   .marka_telefona img{
+    width: 48%;
+    }
+    .inf_najnovija_pitanja_po{
+        justify-content: space-evenly;
+    }
+    .sidebar_po{
+        width: 100%;
+    }
+    .sidebar_og{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .container_za_main{
+        padding-left: 6%;
+        padding-right: 6%;
+       }
+    .container_za_main_d{
+        padding-left: 6%;
+        padding-right: 6%;
+       }
+    .container_za_main_k{
+        padding-left: 6%;
+        padding-right: 6%;
+       }
+    .container_za_main_po{
+        padding-left: 6%;
+        padding-right: 6%;
+           
+    }
+    .marka_telefona img{
+        width: 95%;
+    }
+   
+    .Vesti{
+        width: 34%;
+        margin-left: 10%;
+    }
+    .Pratite_nas{
+        margin-left: 10%;
+        width: 70%;
+    }
+    .vest_slika_main img{
+        display: none;
+    }
+    .prva_vest img{
+        height: 60%;
+    }
+    .reklama{
+        margin: 0%;
+       
+    }
+    .reklama img{
+        width: 100%;
+
+    }
+    .sidebar{
+        border: none;
+    }
+    
+}
